@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Atividades</title>
+    <link rel="stylesheet" href="/Organizador de Atividades/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Organizador de Atividades</h1>
+        
+        <form id="form-atividade" class="form-atividade">
+            <input type="text" id="descricao-atividade" placeholder="Detalhes da Atividade" required>
+            <input type="date" id="data-limite" required>
+            <button type="submit">Adicionar Atividade</button>
+        </form>
+        
+        <h2>Lista de Atividades (<span id="contador-atividade">0</span>)</h2>
+        <table id="tabela-atividade">
+            <thead>
+                <tr>
+                    <th>Atividade</th>
+                    <th>Data de Entrega</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-atividade">
+            <p id="modal-msg"></p>
+            <button id="modal-fechar">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

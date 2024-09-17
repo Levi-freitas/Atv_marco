@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #2c3e50;
+    line-height: 1.8;
+    background-color: #ecf0f1;
+}
+
+header {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #c0392b;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    font-weight: 600;
+}
+
+.nav-links li a:hover {
+    background-color: #a32c2a;
+    border-radius: 8px;
+}
+
+.header-content {
+    text-align: center;
+    padding: 30px;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.header-content p {
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 25px;
+    background-color: #bdc3c7;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.text-content {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #7f8c8d;
+    text-align: justify;
+}
+
+.text-content ul {
+    list-style: square;
+    padding-left: 25px;
+}
+
+.text-content ul li {
+    margin-bottom: 12px;
+}
+
+footer {
+    background-color: #e74c3c;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .header-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .header-content p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    .header-content p {
+        font-size: 0.95rem;
+    }
+
+    .wrapper {
+        padding: 15px;
+    }
+}

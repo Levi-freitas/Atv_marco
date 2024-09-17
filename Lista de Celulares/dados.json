@@ -1,0 +1,54 @@
+{
+  "celulares": [
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 14",
+      "ano": "2022"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S23",
+      "ano": "2023"
+    },
+    {
+      "marca": "Google",
+      "modelo": "Pixel 7",
+      "ano": "2022"
+    },
+    {
+      "marca": "OnePlus",
+      "modelo": "OnePlus 11",
+      "ano": "2023"
+    },
+    {
+      "marca": "Xiaomi",
+      "modelo": "Mi 12 Pro",
+      "ano": "2022"
+    },
+    {
+      "marca": "Sony",
+      "modelo": "Xperia 1 IV",
+      "ano": "2022"
+    },
+    {
+      "marca": "Oppo",
+      "modelo": "Find X5 Pro",
+      "ano": "2022"
+    },
+    {
+      "marca": "Huawei",
+      "modelo": "P50 Pro",
+      "ano": "2021"
+    },
+    {
+      "marca": "Motorola",
+      "modelo": "Edge 30 Ultra",
+      "ano": "2022"
+    },
+    {
+      "marca": "Nokia",
+      "modelo": "X20 5G",
+      "ano": "2021"
+    }
+  ]
+}

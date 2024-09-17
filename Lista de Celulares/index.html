@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Celulares</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Celulares</h1>
+    </header>
+    
+    <main>
+        <section>
+            <div class="form-container">
+                <h2>Adicionar Novo Celular</h2>
+                <form id="form-add-celular">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" required>
+                    
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" required>
+
+                    <label for="ano">Ano:</label>
+                    <input type="text" id="ano" required>
+                    
+                    <button type="submit">Adicionar Celular</button>
+                </form>
+            </div>
+            <div id="tabela" class="tabela"></div>
+        </section>
+        
+        <nav class="paginacao-nav">
+            <ul class="paginacao">
+                <li><a href="#" id="um" class="btnPaginacao">1</a></li>
+                <li><a href="#" id="dois" class="btnPaginacao">2</a></li>
+                <li><a href="#" id="tres" class="btnPaginacao">3</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
